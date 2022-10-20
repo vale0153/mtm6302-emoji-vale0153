@@ -47,7 +47,31 @@ table {
 	border-spacing: 0;
 }
 
-
-.size {
-	font-size: 1000px;
+h1{
+	text-align: center;
+	font-size: 5rem;
 }
+
+body {
+	font-size: 3rem;
+}
+
+.emoji{
+	display:flex;
+	flex-direction: column;
+	padding: 10px;
+	align-content:space-around;
+	text-align: center;
+	gap:5px 5px;
+	border: 2px solid black;
+}
+
+#emojis{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	padding:10px;
+}
+  
+
+
