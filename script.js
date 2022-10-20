@@ -3,7 +3,7 @@ const $emojis =
 
 const emojis = []
 
-for (let i=2; i<50; i++){
+for (let i=129410; i<=129410; i++){
   emojis.push(`<div class="emoji">${i}</div>`)
 }
 
